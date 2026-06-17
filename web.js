@@ -6,7 +6,6 @@ const openModal = document.getElementById("openModal");
 const closeModal = document.getElementById("closeModal");
 const contactModal = document.getElementById("contactModal");
 const sidebarContact = document.getElementById("sidebarContact");
-
 openSidebar.addEventListener("click", () => {
   sidebar.classList.add("active");
 });
